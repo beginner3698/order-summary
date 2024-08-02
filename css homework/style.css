@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    width: 365px;
+    height: 550px;
+    margin: 100px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+}
+
+.photo {
+    background: none;
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.title {
+padding: 23px 15px;
+color: hsl(223, 47%, 23%);
+text-align: center;
+background: none;
+font-size: 25px;
+font-family: "Red Hat Display", sans-serif;
+font-optical-sizing: auto;
+font-weight: 900;
+font-style: normal;
+}
+
+.card-description {
+    padding-left: 47px;
+    padding-right: 47px;
+    font-size: 13px;
+    color: hsl(224, 23%, 55%);
+    line-height: 20px;
+    text-align: center;
+    background: none;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.annualPlan {
+    background-color:  hsl(225, 100%, 98%);
+    width: 280px;
+    height: 75px;
+    margin: 15px auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.music {
+    position: absolute;
+    left: 625px;
+    bottom: 236px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.h5 {
+    position: absolute;
+    left: 695px;
+    bottom: 260px;
+    background-color: hsl(225, 100%, 98%);
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.h6 {
+    position: absolute;
+    left: 695px;
+    bottom: 240px;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    font-size: 13px;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.change {
+    position: absolute;
+    left: 810px;
+    bottom: 250px;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(245, 75%, 52%);
+    border: 2px solid hsl(225, 100%, 98%);
+    font-size: 13px;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.card-button {
+position: absolute;
+left: 570px;
+bottom: 47px;
+padding: 12px 100px;
+margin-bottom: 100px;
+border-radius: 12px;
+background-color: hsl(245, 75%, 52%);
+color: white;
+cursor: pointer;
+font-family: "Red Hat Display", sans-serif;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+}
+
+.button {
+    position: absolute;
+    bottom: 110px;
+    left: 692px;
+    border: 2px solid hsl(0, 0%, 100%);
+    background-color: white;
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
